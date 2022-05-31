@@ -1,34 +1,25 @@
-message = 'Hello World'
+message = "Hello World"
 
-print ('Hello World') # imprime o texto
+print (message)                 # imprime o texto da variável
+print (len(message))            # imprime o tamanho da variável
+print (message[6])              # o caracter da posição 6
+print (message[0:2])            # imprime os 3 primeiros carcateres 
+print (message[5:])             # do 5º carcater até o final
+print (message.lower())         # todo texto em minusculo
+print (message.upper())         # todo teto em maiusculo
+print (message.count('l'))      # quantos carcateres tem no texto 
+print (message.find('W'))       # qual a posição do caracter
 
-print (len(message)) # imprime a quantidade de caracteres da variavel
+new = message.replace ('World','Universe')      
+print(new)                      # troca um texto por outro
 
-print (message[0:5]) # imprime os 5 primeiros caracteres
+t1 = 'oi'
+t2 = 'gente'
+texto = t1 + ', ' + t2 + '. Bem vindo!'
+print (texto)                   # imprime mensagem concatenada 
 
-print (message[6:]) # imprime a partir do 6º caractere
+new = '{}, {}. Bem vindo!'.format(t1, t2)
+print (new)                     # varias variáveis nas posições 
 
-print (message.lower()) # imprime todo texto em minusculo
-
-print (message.upper()) # imprime todo texto em maiusculo 
-
-print (message.count('Hello')) # imprime a quantidade de caracteres selecionados
-
-print (message.find('o')) # a partir de qual caractere esta escrito 
-
-new_message = message.replace ('World', 'Universe') # altera o texto por outro
-
-print (new_message)
-
-greeting = 'Hello'
-name = 'Paulo'
-
-char = greeting + ', ' + name + ". Welcome" # concatena variáveis de string
-
-print (char)
-
-char = '{}, {}. Welcome!'.format(greeting, name) # imprime variaveis diferentes nas chaves do texto
-
-print (char)
-
-print (help(str.lower)) # informações sobre variavel
+print (dir(t2))                 # informações sobre variável
+print (help(str))               # informação sobre função
