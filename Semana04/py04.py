@@ -1,4 +1,3 @@
-'''
 materias = ['His', 'Mat', 'Fis','Comp']
 print(materias)                             # imprime a lista
 print(len(materias))                        # o tamanho da lista
@@ -86,7 +85,7 @@ for iten in materias:                       # imprimir cada item da lista
 materias = ['His', 'Mat', 'Fis','Comp']
 for course in materias:                     # imprimir cada item da lista
     print(course)
-'''
+
 materias = ['His', 'Mat', 'Fis','Comp']
 for index, course in enumerate(materias):   # indice e item da lista
     print(index, course)
