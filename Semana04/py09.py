@@ -1,6 +1,5 @@
-
 import sys
-sys.path.append('/Users/medson/Desktop/My-Modules')
+sys.path.append('/home/medson/SEMB/SEII-MedsonFrazao/Semana04/my_module.pyc')
 
 from my_module import find_index, test
 

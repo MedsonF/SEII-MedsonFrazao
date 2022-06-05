@@ -1,10 +1,9 @@
-
 import os
 
 print(dir(os))
 
 print(os.getcwd())
-'''
+
 os.chdir('A:\Users\medson\Documents\1FACULDADE\11º sem\SEMB2')
 print(os.getcwd())
 
@@ -30,4 +29,4 @@ print(os.listdir())
 import os
 os.chdir('A:\Users\medson\Documents\1FACULDADE\11º sem\SEMB2')
 os.stat('OS-Demo-1')
-print(os.listdir())'''
+print(os.listdir())
