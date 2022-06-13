@@ -28,8 +28,6 @@ async def foo(text):
 asyncio.run(main())
 
 
-
-
 async def fetch_data():
     print('start fetching')
     await asyncio.sleep(2)
