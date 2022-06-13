@@ -1,3 +1,5 @@
+        #Semana 05 SEMB2
+
 import threading
 import time
 
