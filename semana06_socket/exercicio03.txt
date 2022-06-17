@@ -1,0 +1,3 @@
+1) Qual o limite de bytes a serem enviados por pacotes TCP e UDP?
+
+Resposta: O cabeçalho do protocolo TCP, que possui doze campos, pode variar de 20 a 80 bytes. Já o UDP, que possui quatro campos, tem um tamanho fixo de 8 bytes.
